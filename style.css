@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d1d184;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgb(17, 200, 241);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(75, 146, 92, 0.1);
+    width: 300px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.crud-input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#item-name {
+    width: 75%;
+    padding: 10px;
+    border: 1px solid #cfe907;
+    border-radius: 5px;
+}
+
+#add-item-button {
+    padding: 10px;
+    border: none;
+    background-color: #07f7df;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#add-item-button:hover {
+    background-color: #218838;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+li span {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+li button {
+    background-color: #dc3545;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+li button:hover {
+    background-color: #c82333;
+}
+
+li .edit-button {
+    background-color: #007bff;
+}
+
+li .edit-button:hover {
+    background-color: #0069d9;
+}
